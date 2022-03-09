@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "artifacts/js",
+    "noEmit": false
+  },
+  "exclude": [
+    ""
+  ],
+  "include": [
+    "common"
+  ]
+}

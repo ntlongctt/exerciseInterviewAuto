@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "config/index.ts",
+    "common",
+    "playwright"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

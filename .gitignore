@@ -1,0 +1,17 @@
+.DS_Store
+.eslintcache
+.idea
+.pytest_cache
+artifacts/
+config/local.json
+node_modules/
+playwright/screenshots
+playwright/videos
+playwright/results/reports/report.json
+playwright/results/reports/report.html
+playwright/results/reports/report.ndjson
+playwright/results/reports/cucumber_report.html
+playwright/results/videos
+playwright/results/screenshots
+playwright/results/traces
+playwright/results/reports/metaDataReportInfo.json

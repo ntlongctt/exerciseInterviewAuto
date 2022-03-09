@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "tsBuildInfoFile": "/dev/null",
+    "paths": {
+      "*": [
+        "types/*"
+      ],
+      "common/*": [
+        "common/*"
+      ],
+      "config/*": [
+        "config/*"
+      ],
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2018",
+    "skipLibCheck": true
+  }
+}

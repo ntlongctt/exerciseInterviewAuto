@@ -1,0 +1,59 @@
+{
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    ".cache-loader": true
+  },
+  "search.exclude": {
+    "artifacts": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "flow.useNPMPackagedFlow": true,
+  "typescript.validate.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.validate.enable": false,
+  "debug.inlineValues": true,
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "DELETABLE",
+    "Protobuf"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cucumberautocomplete.steps": [
+    "playwright/src/steps/**/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "*/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.strictGherkinValidation": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.skipDocStringsFormat": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{string}",
+      "value": ".*"
+    }
+  ]
+}
