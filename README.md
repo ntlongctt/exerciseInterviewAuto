@@ -1,4 +1,15 @@
 
+I create a file to contain the exercise 2:
+```
+playwright/exercise/copyProject.feature
+```
+
+Please navigate to this feature file to review the exercise 2
+
+
+For exercise 1, I create this automation framework with 'Playwright'
+
+
 Should use the VSCode to open the framework, there is a setting for cucumber format
 Please install the plugin:
 ```
