@@ -27,7 +27,7 @@ cat >playwright/results/reports/metaDataReportInfo.json <<EOF
     {
       "Test Environment": "$ENVIRONMENT",
       "Browser": "$BROWSER",
-      "Headless": "$HEADLESS",
+      "Headless": "$HEADLESS"
     }
 EOF
 
